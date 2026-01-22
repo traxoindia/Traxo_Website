@@ -2,7 +2,7 @@ import React from "react";
 
 function Privacy() {
   return (
-    <div className="max-w-full mx-auto px-6 py-10 text-gray-800 mt-24 bg-white">
+    <div className="max-w-full mx-auto px-6 py-10 text-gray-800 pt-24 bg-white">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
       <p className="text-sm text-gray-500 mb-8">
         Last Updated: Jan 2026
