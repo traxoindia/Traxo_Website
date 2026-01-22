@@ -12,12 +12,11 @@ import M6 from "../../images/M6.jpeg";
 import M7 from "../../images/M7.jpeg";
 import M8 from "../../images/M8.jpeg";
 import M11 from "../../images/M11.jpeg";
-import M12 from "../../images/M12.jpeg";
 import M13 from "../../images/M13.jpeg";
 import S1 from "../../images/S1.jpeg";
 import S2 from "../../images/S2.jpeg";
-import CCO from "../../images/CCO.jpeg";
 import SE from "../../images/SE.jpeg";
+import R from "../../images/R1.jpg";
 const OurStrengths = () => {
   const isAdmin = false;
 
@@ -25,15 +24,15 @@ const OurStrengths = () => {
     { id: 1, name: "Saleena Patra", role: "HR", image: M1, knowMore: "https://www.linkedin.com/in/saleena-patra-7044b5247/" },
     { id: 2, name: "Dipiti Bala Mohanty", role: "BUSINESS OPERATION EXECUTIVE", image: M2, knowMore: "https://example.com/jane" },
     { id: 3, name: "Deepa Das", role: "ACCOUNTANT", image: M3, knowMore: "https://example.com/robert" },
-    { id: 4, name: "Karishma Khatun", role: "RECEPTIONIST", image: M4, knowMore: "https://example.com/emily" },
+    { id: 4, name: "Itishree Nayak", role: "Production Documentation Incharge", image: '', knowMore: "https://example.com/emily" },
     { id: 5, name: "Srikanta Dalei", role: "TECHNICAL COORDINATOR", image: M5, knowMore: "https://example.com/michael" },
     { id: 6, name: "Ramchandra Gantayat", role: "TECHNICAL COORDINATOR", image: M6, knowMore: "https://example.com/sarah" },
     { id: 7, name: "Monalisha Bhoi", role: "CUSTOMER SERVICE REPRESENTATIVE", image: M7, knowMore: "https://example.com/david" },
     { id: 8, name: "Rajendra kumar Kar", role: "PRODUCTION MANAGER", image: M8, knowMore: "https://example.com/sophia" },
     { id: 9, name: "Rajat barik", role: "TECHNICIAN", image: M11, knowMore: "https://example.com/lisa" },
-    { id: 10, name: "Rajendra Jena", role: "TECHNICIAN", image: M12, knowMore: "https://example.com/lisa" },
+    { id: 10, name: "Debashis Nayak", role: "PCB Designer", image:'', knowMore: "https://example.com/lisa" },
     { id: 11, name: "Sushant Dalei", role: "TECHNICIAN", image: M13, knowMore: "https://example.com/lisa" },
-    { id: 12, name: "Rabindra Kumar Sahu", role: "Chief Commercial Officer", image: CCO, knowMore: "https://example.com/lisa" },
+    { id: 12, name: "Romashree Sahoo", role: "Mobile Application Developer", image: R, knowMore: "https://example.com/lisa" },
      { id: 12, name: "Sanjit Sahu", role: "SALES EXECUTIVE", image:SE, knowMore: "https://example.com/lisa" },
   ]);
 

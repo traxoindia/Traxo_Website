@@ -12,7 +12,7 @@ import {
   FaBoxOpen
 } from "react-icons/fa";
 import { IoPeopleOutline, IoBusinessOutline } from "react-icons/io5";
-import { MdOutlineMiscellaneousServices } from "react-icons/md";
+import { MdOutlineMiscellaneousServices, MdPrivacyTip } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -23,6 +23,7 @@ export default function Footer() {
     { name: "Products", link: "/products", icon: <FaBoxOpen className="text-lg" /> },
     { name: "Dealer Center", link: "/dealer", icon: <FaHandshake className="text-lg" /> },
     { name: "Customer Centre", link: "/customer", icon: <FaHeadset className="text-lg" /> },
+    { name: "Privacy Policy", link: "/privacy", icon: <MdPrivacyTip className="text-lg" /> },
   ];
 
   return (

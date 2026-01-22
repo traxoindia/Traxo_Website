@@ -71,6 +71,7 @@ import SOS from "./components/pages/SOS";
 import VMIS from "./components/pages/VMIS";
 import FMS from "./components/pages/FMS";
 import EMS from "./components/pages/EMS";
+import Privacy from "./components/pages/Privacy";
 
 
 function App() {
@@ -166,6 +167,7 @@ function App() {
         <Route path="/products/software/vehicle-management-information-system" element={<VMIS />} />
         <Route path="/products/software/fleet-management-software" element={<FMS />} />
         <Route path="/products/software/esim-management-software" element={<EMS />} />
+        <Route path="/privacy" element={<Privacy />} />
 
       </Routes>
 
